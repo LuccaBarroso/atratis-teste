@@ -104,11 +104,13 @@ table {
   transform: scale(1.05); 
 }
 
-ul.pink-marks li {
+.pink-marks li {
   padding-left: 1.3em;
+  margin: 1em 0;
+  list-style: none;
 }
 
-ul.pink-marks li:before {
+.pink-marks li:before {
   content: "\f00c"; /* FontAwesome Unicode */
   font-family: FontAwesome;
   display: inline-block;
@@ -168,11 +170,16 @@ nav .container ul li:hover{
     justify-content: center;
     align-items: center;
   }
-  .logo{
-    magin-top: 10px;
+  .logo img{
+    height: 55px !important;
+    padding: 5px 0;
+  }
+  .burguer-menu-icon{
+    width: 20px;
   }
   .navbar .container .call-to-action{
-    margin: 20px 0;
+    margin: 5px 0;
+    font-size: 0.6em;
     width: 100%;
   }
 

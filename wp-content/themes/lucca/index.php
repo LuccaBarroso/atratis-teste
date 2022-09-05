@@ -106,7 +106,7 @@
         
                   ?>
     <div class="row my-4 p-2">
-      <div class="col-lg order-2 order-lg-1 ">
+      <div class="col-lg order-2 order-lg-1 pink-marks">
         <h3 class="h3 color-gray h2 bold"><?php echo get_field('titulo_chamada_1'); ?></h3>
         <?php 
               echo get_field("descricao_da_chamada_1");
@@ -135,7 +135,7 @@
           alt="">
 
       </div>
-      <div class="col-md">
+      <div class="col-md pink-marks">
         <h4 class="h3 color-gray h2 bold"><?php echo get_field('titulo_chamada_2'); ?></h3>
           <?php 
               echo get_field("descricao_da_chamada_2");
@@ -209,7 +209,7 @@
     <div class="row gy-5">
       <?php
 
-        $argumentos = array( "cat" => 7 );
+        $argumentos = array( "cat" => 5 );
         $query = new WP_Query( $argumentos );
 
 
