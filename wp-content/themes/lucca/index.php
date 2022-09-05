@@ -115,7 +115,7 @@
               if(get_field('link_saiba_mais_chamada_1')) {
             ?>
         <button href="<?php get_field('link_saiba_mais_chamada_1') ?>"
-          class="btn btn-sm call-to-action bold ms-auto order-2 bg-pink text-white px-4 py-2 grow-hover mt-4"
+          class="btn btn-sm call-to-action bold d-block ms-auto order-2 bg-pink text-white px-4 py-2 grow-hover mt-4"
           type="button">
           Saiba Mais
         </button>
@@ -144,7 +144,7 @@
               if(get_field('link_saiba_mais_chamada_2')) {
             ?>
           <button href="<?php get_field('link_saiba_mais_chamada_2') ?>"
-            class="btn btn-sm call-to-action bold ms-auto order-2 bg-pink text-white px-4 py-2 grow-hover mt-4"
+            class="btn btn-sm call-to-action bold d-block order-2 bg-pink text-white px-4 py-2 grow-hover mt-4"
             type="button">
             Saiba Mais
           </button>
@@ -237,7 +237,7 @@
     ?>
     </div>
     <div class="text-center">
-      <button href="<?php echo get_category_link(7); ?>"
+      <button href="<?php echo get_category_link(5); ?>"
         class="btn btn-sm call-to-action bold order-2 bg-pink text text-white px-5 py-2 grow-hover my-4"
         type="button">Ver todos</button>
     </div>

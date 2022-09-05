@@ -9,7 +9,7 @@ if ( $query->have_posts() ) {
 
     $endereco_linha_1 = get_field("endereco_linha_1");
     $endereco_linha_2 = get_field("endereco_linha_2");
-    $telefone = get_field("telefone");
+    $telefone = get_field("Telefone");
     $link_facebook = get_field("link_facebook");
     $link_instagram = get_field("link_instagram");
     $link_linkedin = get_field("link_linkedin");
