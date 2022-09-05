@@ -330,13 +330,14 @@ nav .container ul li:hover{
   }
 }
 
-#map{
+#map, #map iframe{
   padding-bottom: 0 !important;
   margin-bottom: 0 !important;
 }
 
 #map iframe{
-  width: 100vw;
+  width: 100%;
+  overflow: hidden;
 }
 
 .bottom-line{
