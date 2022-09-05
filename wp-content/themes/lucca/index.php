@@ -7,18 +7,20 @@
   $argumentos = array(
     'post_type' => 'banner',
     'tax_query' => array(
-        array(
-            'taxonomy' => 'posicao',
-            'field'    => 'slug',
-            'terms'    => 'destaque',
-        ),
-      ),);
+      array(
+          'taxonomy' => 'posicao',
+          'field'    => 'slug',
+          'terms'    => 'destaque',
+      ),
+    ),
+    );
             	
   $query = new WP_Query( $argumentos );
   
   if ( $query->have_posts() ) {
     while ( $query->have_posts() ) {
-        $query->the_post();
+      $query->the_post();
+
         ?>
   <div class="item">
     <div class="carousel-item active position-relative w-100">
@@ -61,7 +63,8 @@
       <div class="row  g-2 ">
 
         <?php 
-            $argumentos = array( 'cat' => 4 );
+            $argumentos = array( 'post_type' => 'servicos',
+             );
             	
             $query = new WP_Query( $argumentos );
 
@@ -94,7 +97,7 @@
 
   <section class="flex justify-content-center w-100 center mt-5 pt-5 pb-5" id="Sobre">
     <?php
-        $argumentos = array( 'post_type' => 'page', 'page_id' => 52 );
+        $argumentos = array( 'post_type' => 'page', 'page_id' => 31 );
             	
         $query = new WP_Query( $argumentos );
         if ( $query->have_posts() ) {
@@ -163,7 +166,7 @@
 
 <?php
 
-  $argumentos = array( 'post_type' => 'page', 'page_id' => 52 );
+  $argumentos = array( 'post_type' => 'page', 'page_id' => 31 );
   $query = new WP_Query( $argumentos );
 
   if ( $query->have_posts() ) {
@@ -241,7 +244,7 @@
   </section>
 </div>
 
-<section class="pt-5" id="Map">
+<section class="pt-5" id="map">
   <?php echo $google_maps ?>
 </section>
 

@@ -63,7 +63,7 @@
   <nav class="navbar navbar-expand-lg bg-white sticky-top">
     <div class="container">
       <?php
-      $argumentos = array( 'post_type' => 'page', 'page_id' => 52 );
+      $argumentos = array( 'post_type' => 'page', 'page_id' => 31 );
             
       $query = new WP_Query( $argumentos );
       if ( $query->have_posts() ) {
@@ -92,7 +92,7 @@
       </button>
 
       <button class="btn btn-sm call-to-action bold ms-auto order-2 bg-pink text-white px-4 py-2 grow-hover"
-        type="button" href="<?php echo get_page_link(18); ?>">
+        type="button" href="<?php echo get_page_link(58); ?>">
         Solicite um orçamento
       </button>
 
