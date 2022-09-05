@@ -20,7 +20,7 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'estudandowordpress' );
+define( 'DB_NAME', 'atratis_teste' );
 
 /** Database username */
 define( 'DB_USER', 'root' );
@@ -53,7 +53,7 @@ define( 'SECURE_AUTH_KEY',  '9Z-y&,gXUtTy@4o7G=<0Eo1fYaf]3.36_meAiYElpsoJCF3n]dE
 define( 'LOGGED_IN_KEY',    '`~Bdox~VH<]i2N()`qzR lbAes[aXhbRUU?xd&M8}kw()I;0_LpW7ZA`4i#^;?gq' );
 define( 'NONCE_KEY',        'U5bjt!F|9PW~H;a3SHOgl|S8y<jO::U8J?72pGpC<aU! +7 !5WOi:A5XoQk__*$' );
 define( 'AUTH_SALT',        'f:<oK#gnI[8)FVju4FA^z-jDWX:4%m?-?>.S=7Uz`/W,j)D;xf1TkB<Bp_)z*bO$' );
-define( 'SECURE_AUTH_SALT', 'D]6-Imq<%{{j<DsU]N)4E#`|z+(n?8y+EYTj^$emvKPUS45$8ukKnP^H12h?42b.' );
+  define( 'SECURE_AUTH_SALT' , 'D]6-Imq<%{{j<DsU]N)4E#`|z+(n?8y+EYTj^$emvKPUS45$8ukKnP^H12h?42b.' );
 define( 'LOGGED_IN_SALT',   'J<|@e/4ZA[UL*p>fMLBHi2)A,_EQ8#Fp^>8rq|;8>j9$OU]rr5[<[h,:Fu#Z[d:d' );
 define( 'NONCE_SALT',       'l(sq6r*[SmNZZ hXVayrp^gBk7Z~OC#@g_@|2`6UbchF0(j1szgR]*H3qiiNUKv ' );
 
