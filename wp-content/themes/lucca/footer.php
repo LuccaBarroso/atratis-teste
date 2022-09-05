@@ -20,7 +20,7 @@ if ( $query->have_posts() ) {
 wp_reset_postdata();
 ?>
 
-<section class="bg-gray w-100" id="Contato">
+<section class="bg-gray w-100" id="contato">
   <div class="container">
     <div class="w-100">
       <div class="row gy-5 pb-4 pt-5 bottom-line">

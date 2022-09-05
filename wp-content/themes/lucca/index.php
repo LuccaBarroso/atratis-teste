@@ -55,7 +55,7 @@
 </div>
 
 <div class="container">
-  <section class="flex justify-content-center w-100 center py-5" id="Serviços">
+  <section class="flex justify-content-center w-100 center py-5" id="servicos">
     <h3 class="color-gray text-center bold h4">Confira nossos serviços</h2>
       <p class="color-gray text-center h6">Garanta o melhor serviço de advocacia</p>
 
@@ -95,7 +95,7 @@
       </div>
   </section>
 
-  <section class="flex justify-content-center w-100 center mt-5 pt-5 pb-5" id="Sobre">
+  <section class="flex justify-content-center w-100 center mt-5 pt-5 pb-5" id="sobre">
     <?php
         $argumentos = array( 'post_type' => 'page', 'page_id' => 31 );
             	
@@ -204,7 +204,7 @@
 </section>
 
 <div class="container">
-  <section id="Blog" class="mt-5 pt-5">
+  <section id="blog" class="mt-5 pt-5">
     <h3 class="h3 text-center pb-5 extra-bold"> Blog</h3>
     <div class="row gy-5">
       <?php

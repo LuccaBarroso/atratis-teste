@@ -111,3 +111,5 @@
       </div>
     </div>
   </nav>
+
+  <div id="home"></div>
